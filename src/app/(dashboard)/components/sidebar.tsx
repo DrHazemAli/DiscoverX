@@ -24,6 +24,7 @@ import {
   Database,
   Menu,
   X,
+  Pencil,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -50,6 +51,12 @@ const userNavSections: NavSection[] = [
       { href: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
       { href: '/dashboard/analyze', label: 'Analyze Repo', icon: Search },
       { href: '/dashboard/compare', label: 'Compare', icon: GitCompare },
+    ],
+  },
+  {
+    title: 'Collaborate',
+    items: [
+      { href: '/dashboard/whiteboard', label: 'Whiteboards', icon: Pencil },
     ],
   },
   {
